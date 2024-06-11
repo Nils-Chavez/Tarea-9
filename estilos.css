@@ -1,0 +1,85 @@
+
+*{
+    margin: auto;
+}
+/*******HEARDER*******/
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: bisque;
+    height: 70px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+
+}
+header li{
+    margin: 50px;
+    font-size: 17px;
+}
+.logo{
+    height: 100px;
+    width: 180px;
+    margin: 0px;
+}
+h2{
+    font-size: 30px;
+}
+/*****main*****/
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    justify-content: center;
+    
+}
+section{
+    width: 350px;
+    margin: 5px;
+}
+h2{
+    color:rgb(205,38,38);
+}
+input{
+    height: 30px;
+    width: 340px;
+}
+#mensaje{
+    height: 100px;
+    width: 340px;
+}
+.enviar{
+    width: 350px;
+    height: 40px;
+    background-color: dimgrey;
+    color: white;
+}
+
+/****FOOTER****/
+
+footer{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(148, 13, 17);
+    justify-content: space-evenly;
+    height: 230px;
+    color: white;
+
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 250px;
+}
+
+footer div ul h3{
+    margin-top: 10px;
+}
